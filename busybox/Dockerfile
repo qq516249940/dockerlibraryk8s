@@ -1,2 +1,2 @@
-FROM gcr.io/google-samples/node-hello:1.0
+FROM k8s.gcr.io/busybox
 MAINTAINER chunk
