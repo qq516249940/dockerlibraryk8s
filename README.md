@@ -2,7 +2,7 @@
 同步k8s镜像
 
 # how to use
-## 方法一
+## 方法一  推荐
 开启本地仓库
 ```
 microk8s.enable registry
@@ -17,7 +17,7 @@ docker tag 516249940/busybox:latest localhost:32000/busybox:latest
 ```
 push镜像
 ```
-docker push localhost:32000/lbusybox:latest
+docker push localhost:32000/busybox:latest
 ```
 最后修改yml 镜像
 kubectl edit pod xxx
